@@ -34,6 +34,11 @@ a {
   h3,h4,p,span,a {
     font-family: 'Roboto', sans-serif;
   }
+
+  h4 {
+    font-weight: bold;
+    font-size:21px;
+  }
   
 li {
     list-style-type: none;
@@ -240,7 +245,7 @@ li {
   /* PLATS PRINCIPAUX */
 
   .dish {
-    animation: fadein 2s ease-in-out;
+    animation: fadein 4s ease-in-out;
   }
   @media screen and (min-width: 1280px) {
     .dish {
@@ -251,7 +256,7 @@ li {
   /* DESSERTS */
 
   .dessert {
-    animation: fadein 2s ease-in-out;
+    animation: fadein 6s ease-in-out;
   }
 
   @media screen and (min-width: 1280px) {
