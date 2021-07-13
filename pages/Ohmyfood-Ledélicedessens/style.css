@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
 
 
@@ -39,6 +39,10 @@ li {
     font-family: 'Roboto', sans-serif;
   }
 
+  h3{
+    font-weight: 100;
+  }
+
   h4 {
     font-weight: bold;
     font-size:21px;
@@ -49,29 +53,42 @@ li {
 
 
   .menu-header {
+  
+    margin-top: 30px;
+    margin-bottom: 10px;
+  
+    
+  }
+
+  .menu-header .arrow {
+    padding-left: 25px;
+   
+ 
+  }
+
+  .menu-header .div-logo{
+    margin-top: -28px;
+   display: flex;
+   justify-content: center;
+
+  }
+
+
+
+
+/*
+  .menu-header .test {
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-    margin-bottom: 10px;
-  }
-
-
-  .arrow {
-    display: none;
-  }
-
-  .arrow i {
-    margin-left: -100px;
-  }
-
-  @media screen and (max-width: 600px) {
-
-    .arrow {
-      display: block;
-    }
 
   }
+
+
+  .menu-header .arrow{
+    display: flex;
+    justify-content: left;
+  }
+*/
 
 
   .header-img img {
@@ -220,7 +237,7 @@ li {
     align-items: center;
     background-color: #99E2D0;
     width: 50px;
-    height: 63px;
+    height: 70px;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
     position: absolute;
@@ -330,5 +347,8 @@ li {
     margin-right: 5px;
   }
   
+  .foo {
+    font-weight: bold;
+  }
   
   

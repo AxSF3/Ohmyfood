@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
 
 
@@ -35,6 +35,11 @@ a {
     font-family: 'Roboto', sans-serif;
   }
 
+  
+  h3{
+    font-weight: 100;
+  }
+
   h4 {
     font-weight: bold;
     font-size:21px;
@@ -49,21 +54,24 @@ li {
 
 
   .menu-header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
+
+    margin-top: 30px;
     margin-bottom: 10px;
   }
 
-
-  .arrow {
-    display: none;
+  .menu-header .arrow {
+    padding-left: 25px;
+   
+ 
   }
 
-  .arrow i {
-    margin-left: -100px;
+  .menu-header .div-logo{
+    margin-top: -28px;
+   display: flex;
+   justify-content: center;
+
   }
+
 
   @media screen and (max-width: 600px) {
 
@@ -227,7 +235,7 @@ li {
     align-items: center;
     background-color: #99E2D0;
     width: 50px;
-    height: 63px;
+    height: 70px;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
     position: absolute;
@@ -339,5 +347,7 @@ li {
     margin-right: 5px;
   }
   
-  
+  .foo {
+    font-weight: bold;
+  }
   
