@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
 
 
@@ -22,13 +22,13 @@ a {
 li {
   list-style-type: none;
 }
-
+/*
 h3,h4 {
   font-family: 'Shrikhand', sans-serif;
   
-}
+}*/
 
-h2,p, span {
+h4,h3,h2,p, span {
 
   font-family: 'Roboto', sans-serif;
 
@@ -40,7 +40,7 @@ font-weight: 900;
 }
 
 .bold {
-  font-weight: 900;
+
 }
 
 /* LOADER */
@@ -264,6 +264,8 @@ input[type=search]::-ms-reveal {  display: none; width : 0; height: 0; }
     list-style-type: none;
   }
 
+
+
   .fonction-ul li {
     display: flex;
     flex-direction: row;
@@ -275,9 +277,11 @@ input[type=search]::-ms-reveal {  display: none; width : 0; height: 0; }
     border-radius: 20px;
     box-shadow: 1px 2px 8px 2px #c4c4c4;
     background-color: #f5f5f5;
+    margin-left: 30px;
   }
   .fonction-ul li p {
-    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
     margin-left: 20px;
   }
   .fonction-ul li:hover {
@@ -286,6 +290,11 @@ input[type=search]::-ms-reveal {  display: none; width : 0; height: 0; }
   .fonction-ul li:hover .fas {
     color: #9356dc;
   }
+
+  .fonc {
+    font-family: 'Roboto', sans-serif;
+  }
+
   .fonction-number {
     background-color: #9356dc;
     color: white;
@@ -344,6 +353,7 @@ input[type=search]::-ms-reveal {  display: none; width : 0; height: 0; }
   .main-restaurant {
     padding: 0 20%;
   }
+
 }
 
 .heart {
@@ -503,6 +513,16 @@ footer ul .fa-hands-helping {
 
   }
   
+
+
+  @media screen and (max-width: 850px) {
+
+
+    .fonction-ul li {
+     margin-left: 0px;
+    }
+
+  }
 /* FONCTIONNEMENT */
 
     @media screen and (min-width: 850px) {
