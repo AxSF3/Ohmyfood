@@ -122,13 +122,26 @@ li {
 
   }
 
+  @keyframes fill {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 0.5;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
 
   .fill {
     color: black;
     cursor: pointer;
   }
   .fill:hover {
-    animation: fill 0.3s ease-in-out;
+    
+    animation: fill 2s ease-in-out;
     display: inline-block;
     opacity: 1;
     background: linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
@@ -192,9 +205,26 @@ li {
     opacity: 1;
     transform: translate(-50px);
   }
+
+  .meals .cross {
+    opacity: 1;
+    transform: translate(0px);
+  
+    
+  }
+
   .meals:hover .fa-check-circle {
     transform: rotate(360deg);
+    
+
   }
+
+  .meals .fa-check-circle {
+    transform: rotate(0deg);
+    
+
+  }
+
 
   .meals h4 {
     margin: 0;
